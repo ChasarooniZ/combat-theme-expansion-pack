@@ -19,8 +19,8 @@ function getSoundPaths(soundPathArray, id) {
 const COMBAT_THEMES = [
   {
     id: "feudal-japan-1",
-    startEncounter: ["shaped-taiko"],
+    startEncounter: ["koto-hit"],
     nextUp: ["furin-japanese-wind-chime"],
-    yourTurn: ["koto-hit"],
+    yourTurn: ["shaped-taiko"],
   },
 ];
