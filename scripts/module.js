@@ -23,4 +23,10 @@ const COMBAT_THEMES = [
     nextUp: ["furin-japanese-wind-chime"],
     yourTurn: ["shaped-taiko"],
   },
+  {
+    id: "horror-1",
+    startEncounter: ["cabin-in-woods-01", "cabin-in-woods-02", "cabin-in-woods-03"],
+    nextUp: ["something-in-basement-01", "something-in-basement-02", "something-in-basement-03", "something-in-basement-04"],
+    yourTurn: ["metal-strike-01", "metal-strike-02", "metal-strike-03", "metal-strike-04", "metal-strike-05"],
+  }
 ];
