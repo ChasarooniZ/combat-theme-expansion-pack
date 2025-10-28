@@ -1,6 +1,6 @@
 {
   "id": "combat-theme-expansion-pack",
-  "title": "Combat Theme Expansion Pack",
+  "title": "Combat Themes Expansion Pack",
   "description": "Adds new themes to the Combat tracker",
   "version": "#{VERSION}#",
   "library": "false",
