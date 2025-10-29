@@ -2,6 +2,7 @@
   "I18N.LANGUAGE": "English",
   "combat-theme-expansion-pack": {
     "themes": {
+      "dark-synth-1": "Dark Synth (A)",
       "feudal-japan-1": "Feudal Japan (A)",
       "horror-1": "Horror (A)"
     }
