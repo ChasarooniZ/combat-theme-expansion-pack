@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Foundry-v10-informational)
+![](https://img.shields.io/badge/Foundry-v13-informational)
 
 <!--- Downloads @ Latest Badge -->
 <!--- replace <user>/<repo> with your username/repository -->
@@ -13,7 +13,7 @@
 Adds some new combat themes (aka sfx for turn change etc.)
 
 ## Themes
-
+- **Dark Synth (A)** - A Dark synth sfx akin to something you might hear in a Ghost Themed anime
 - **Feudal Japan (A)** - Wind Chimes and Koto Hits
 - **Horror (A)** - Gutteral SFX (Think "Fallout Interface-like")
 
@@ -22,7 +22,8 @@ Adds some new combat themes (aka sfx for turn change etc.)
 [Changelog](/CHANGELOG.MD)
 
 ## Source
-
+- Dark Synth (A)
+  - Ovani Sounds
 - Feudal Japan (A)
   - Ovani Sounds
 - Horror (A)
