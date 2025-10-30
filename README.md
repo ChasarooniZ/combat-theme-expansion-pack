@@ -21,6 +21,9 @@ Adds some new combat themes (aka sfx for turn change etc.)
 
 [Changelog](/CHANGELOG.MD)
 
+## Legal Stuff
+Unless otherwise stated any sounds within this module are only legally allowed to be used within the context of this module, as the license for these is non transferrable and separate from the license for the code.
+
 ## Source
 - Dark Synth (A)
   - Ovani Sounds
