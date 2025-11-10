@@ -18,6 +18,7 @@
     "requires": []
   },
   "esmodules": ["scripts/module.js"],
+  "styles": ["styles/module.css"],
   "languages": [
     {
       "lang": "en",

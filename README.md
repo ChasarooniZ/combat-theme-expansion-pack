@@ -14,6 +14,7 @@ Adds some new combat themes (aka sfx for turn change etc.)
 
 Also adds the option to sync those combat themes to your players!
 
+![](./assets/themes/feudal-japan-1/koto-hit.ogg)
 ## Themes
 - **Dark Synth (A)** - A Dark synth sfx akin to something you might hear in a Ghost Themed anime
 - **Feudal Japan (A)** - Wind Chimes and Koto Hits

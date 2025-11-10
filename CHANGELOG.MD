@@ -1,5 +1,8 @@
 ## Unreleased
 
+## 0.2.1
+- Fix styling on Combat Theme
+
 ## 0.2.0
 
 - **New**
