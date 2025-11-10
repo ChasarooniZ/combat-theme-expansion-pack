@@ -1,4 +1,5 @@
-import { id as MODULE_ID } from "../module.json";
+import moduleJson from "../module.json" with { type: "json" };
+const MODULE_ID = moduleJson.id;
 
 export function registerSettings() {
   game.settings.register(MODULE_ID, "combat-theme", {
@@ -14,7 +15,7 @@ export function registerSettings() {
     name: `${MODULE_ID}.module-settings.sync.name`,
     hint: `${MODULE_ID}.module-settings.sync.hint`,
     scope: "world",
-    config: false,
+    config: true,
     default: true,
     type: Boolean,
   });

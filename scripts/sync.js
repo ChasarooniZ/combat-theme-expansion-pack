@@ -1,4 +1,5 @@
-import { id as MODULE_ID } from "../module.json";
+import moduleJson from "../module.json" with { type: "json" };
+const MODULE_ID = moduleJson.id;
 
 export function setupSyncHooks() {
   if (
@@ -29,4 +30,12 @@ export function setupSyncHooks() {
       window[MODULE_ID].socket.executeForOthers("updateCombatTheme", value);
     }
   });
+
+  // Style tracker to show it syncs
+  Hooks.on("renderCombatTrackerConfig", (_cfg, html) => {
+    if (!game.settings.get(MODULE_ID, "sync")) return;
+    const themeHTML = html.querySelector('.form-group[data-setting-id="core.combatTheme"] label');
+    themeHTML?.classList?.add('combat-theme-expansion-sync');
+    themeHTML.dataset.tooltip = game.i18n.localize(`${MODULE_ID}.tooltip.synced`)
+  })
 }

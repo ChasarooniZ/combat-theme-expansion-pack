@@ -1,3 +1,4 @@
+import { registerSettings } from "./settings.js";
 import { setupSocket } from "./socket.js";
 import { setupSyncHooks } from "./sync.js";
 

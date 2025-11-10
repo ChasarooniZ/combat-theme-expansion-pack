@@ -1,4 +1,5 @@
-import { id as MODULE_ID } from "../module.json";
+import moduleJson from "../module.json" with { type: "json" };
+const MODULE_ID = moduleJson.id;
 
 async function updateCombatTheme(theme) {
   game.settings.set("core", "combatTheme", theme);
