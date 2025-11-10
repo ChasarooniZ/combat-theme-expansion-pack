@@ -3,7 +3,6 @@ const MODULE_ID = moduleJson.id;
 
 export function setupSyncHooks() {
   if (
-    !game.user.isGM &&
     game.settings.get(MODULE_ID, "combat-theme") !== "" &&
     game.settings.get(MODULE_ID, "combat-theme") !==
       game.settings.get("core", "combatTheme")
@@ -28,6 +27,7 @@ export function setupSyncHooks() {
       if (!game.settings.get(MODULE_ID, "sync")) return;
       game.settings.set(MODULE_ID, "combat-theme", value);
       window[MODULE_ID].socket.executeForOthers("updateCombatTheme", value);
+      ui.notifications.info(game.i18n.localize(`${MODULE_ID}.notifications.sync`))
     }
   });
 

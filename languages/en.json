@@ -7,6 +7,9 @@
         "hint": "Causes the combat theme the GM sets to be sync with users, otherwise it is on a player by player basis"
       }
     },
+    "notification": {
+      "sync": "Theme Updated and Synced to Players"
+    },
     "themes": {
       "dark-synth-1": "Dark Synth (A)",
       "feudal-japan-1": "Feudal Japan (A)",
