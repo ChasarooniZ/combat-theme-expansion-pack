@@ -36,6 +36,8 @@ export function setupSyncHooks() {
     if (!game.settings.get(MODULE_ID, "sync")) return;
     const themeHTML = html.querySelector('.form-group[data-setting-id="core.combatTheme"] label');
     themeHTML?.classList?.add('combat-theme-expansion-sync');
+    themeHTML.textContent = `${"🔗 "}${themeHTML.textContent}`
+    themeHTML.style.color = 'var(--color-text-secondary)' 
     themeHTML.dataset.tooltip = game.i18n.localize(`${MODULE_ID}.tooltip.synced`)
   })
 }
