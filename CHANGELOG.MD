@@ -1,5 +1,11 @@
 ## Unreleased
 
+## 0.2.0
+
+- **New**
+  - `Sync Combat Theme`
+    - When the GM selects a new combat theme it will automatically sync to other players
+
 ## 0.1.1
 
 - **New Themes**

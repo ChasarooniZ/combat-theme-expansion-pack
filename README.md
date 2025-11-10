@@ -12,6 +12,8 @@
 
 Adds some new combat themes (aka sfx for turn change etc.)
 
+Also adds the option to sync those combat themes to your players!
+
 ## Themes
 
 - **Feudal Japan (A)** - Wind Chimes and Koto Hits
