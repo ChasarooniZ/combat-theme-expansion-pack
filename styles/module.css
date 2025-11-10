@@ -1,0 +1,9 @@
+.form-group[data-setting-id="core.combatTheme"]
+  label.combat-theme-expansion-sync {
+  color: var(--color-text-secondary);
+}
+
+.form-group[data-setting-id="core.combatTheme"]
+  label.combat-theme-expansion-sync::before {
+  content: "🔗 ";
+}
