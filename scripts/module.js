@@ -1,4 +1,7 @@
-const MODULE_ID = "combat-theme-expansion-pack";
+import { setupSocket } from "./socket.js";
+import { setupSyncHooks } from "./sync.js";
+
+export const MODULE_ID = "combat-theme-expansion-pack";
 Hooks.once("init", async function () {
   for (const theme of COMBAT_THEMES) {
     CONFIG.Combat.sounds[theme.id] = {
@@ -8,6 +11,12 @@ Hooks.once("init", async function () {
       yourTurn: getSoundPaths(theme.yourTurn, theme.id),
     };
   }
+  registerSettings();
+  setupSocket();
+});
+
+Hooks.once('ready', async function() {
+  setupSyncHooks(); 
 });
 
 function getSoundPaths(soundPathArray, id) {

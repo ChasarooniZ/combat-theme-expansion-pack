@@ -1,6 +1,12 @@
 {
   "I18N.LANGUAGE": "English",
   "combat-theme-expansion-pack": {
+    "module-settings": {
+      "sync": {
+        "name": "Sync Combat Theme?",
+        "hint": "Causes the combat theme the GM sets to be sync with users, otherwise it is on a player by player basis"
+      }
+    },
     "themes": {
       "dark-synth-1": "Dark Synth (A)",
       "feudal-japan-1": "Feudal Japan (A)",
