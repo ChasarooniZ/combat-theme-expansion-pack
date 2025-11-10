@@ -16,6 +16,9 @@ Also adds the option to sync those combat themes to your players!
 
 ## Themes
 - **Dark Synth (A)** - A Dark synth sfx akin to something you might hear in a Ghost Themed anime
+
+<video src="https://github.com/user-attachments/assets/e4be5973-6585-42fc-aace-2bb58f94b901" height="20" />
+
 - **Feudal Japan (A)** - Wind Chimes and Koto Hits
 - **Horror (A)** - Gutteral SFX (Think "Fallout Interface-like")
 
