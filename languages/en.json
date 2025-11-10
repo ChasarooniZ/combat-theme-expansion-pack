@@ -7,7 +7,7 @@
         "hint": "Causes the combat theme the GM sets to be sync with users, otherwise it is on a player by player basis"
       }
     },
-    "notification": {
+    "notifications": {
       "sync": "Theme Updated and Synced to Players"
     },
     "themes": {
