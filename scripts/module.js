@@ -16,13 +16,13 @@ Hooks.once("init", async function () {
   setupSocket();
 });
 
-Hooks.once('ready', async function() {
-  setupSyncHooks(); 
+Hooks.once("ready", async function () {
+  setupSyncHooks();
 });
 
 function getSoundPaths(soundPathArray, id) {
   return soundPathArray.map(
-    (sound) => `modules/${MODULE_ID}/assets/themes/${id}/${sound}.ogg`
+    (sound) => `modules/${MODULE_ID}/assets/themes/${id}/${sound}.ogg`,
   );
 }
 
@@ -59,5 +59,18 @@ const COMBAT_THEMES = [
     startEncounter: ["synth-ominous-c"],
     nextUp: ["synth-swell-a", "synth-swell-b", "synth-swell-c"],
     yourTurn: ["synth-ominous-a"],
+  },
+  {
+    id: "western-1",
+    startEncounter: ["delon_boomkin-western-sting-electric-guitar-474221"],
+    nextUp: [
+      "stinger-guitar-danger-a",
+      "stinger-guitar-danger-b",
+      "stinger-guitar-danger-c",
+      "stinger-guitar-danger-d",
+      "stinger-guitar-danger-e",
+      "stinger-guitar-danger-f",
+    ],
+    yourTurn: ["duel-start-whistle-d", "duel-start-whistle-f"],
   },
 ];

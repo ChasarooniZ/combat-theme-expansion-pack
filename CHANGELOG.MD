@@ -1,6 +1,14 @@
 ## Unreleased
 
+## 0.3.0
+
+- **New**
+  - `Western (A)` - New theme with some nice western style guitars
+- **Updated**
+  - Official V14 support
+
 ## 0.2.1
+
 - Fix styling on Combat Theme
 
 ## 0.2.0
